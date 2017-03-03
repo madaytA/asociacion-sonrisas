@@ -2,21 +2,253 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Catalogo Textil</title>
+	<title>Asociación SONRISAS</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/preguntas.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-<!-- ---------section-menu--------- -->
+<!-- <head>
+    <div class="container">
+        <div class="menu">
+            <div class='row'>
+                <div class="col-md-2">
+                    <div class="logo">
+                        <img src="img/logo.png">
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <ul class="list-inline pull-right">
+                        <li>INICIO</li>
+                        <li>SOMOS</li>
+                        <li>PRODUCTOS</li>
+                        <li>PREGUNTAS</li>
+                        <li>ACERCA DE</li>
+                        <li>CONTACTO</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</head>
+ -->
+<!-- ------------sliderr------------ -->
+<header class="main-header">
+    <div class="header-wrapper">
+      <div class="main-logo">
+        <div class="logo">
+            <img src="img/logotipo2.png">
+        </div>
+      </div>
+      <nav>
+        <ul class="main-menu">
+          <li><a href="#section-2">About</a></li>
+          <li><a href="#section-5">Service</a></li>
+          <li><a href="#section-7">Work</a></li>
+          <li><a href="#section-9">Blog</a></li>
+          <li><a href="#main-footer">Contact</a></li>
+          <li><a href="#"><span class="fa fa-shopping-cart"></span></a></li>
+          <li><a href="#"><span class="fa fa-search"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+</header>
+<section id="section-1">
+    <div class="content-slider">
+      <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+      <input type="radio" id="banner2" class="sec-1-input" name="banner">
+      <input type="radio" id="banner3" class="sec-1-input" name="banner">
+      <input type="radio" id="banner4" class="sec-1-input" name="banner">
+      <div class="slider">
+        <div id="top-banner-1" class="banner">
+          <div class="banner-inner-wrapper wraper-1">
+            
+            <h1>Bienvenidos</h1>
+            <h2>Contigo seguimos creciendo</h2>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-2" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>What We Do</h2>
+            <h1>Great<br>MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-4">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-3" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Here We Are</h2>
+            <h1>We Are<br>MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-6">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-4" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Our Contacts</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#main-footer">Learn More</a></div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="controls">
+          <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span> Intro</label>
+          <label for="banner2"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Work</label>
+          <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> About</label>
+          <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Contacts</label>
+        </div>
+      </nav>
+    </div>
+</section>
+<!-- -------------slider----------- -->
 
+
+<div class="pop-icons">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <div class="list-inline">
+          <a href="#"><i class="fa fa-facebook"></i> <span>Facebook se comunica con nosotros<br> la comunicacion e.</span></a>
+          <a href="#"><i class="fa fa-cogs"></i> <span>Twitter esta con orem isun en la comunidad<br>realidad</span></a>
+          <a href="#"><i class="fa fa-file-text"></i> <span>Google+ se comunica con nosotros<br> la com</span></a>
+          <a href="#"><i class="fa fa-home"></i> <span>Github se comunica con nosotros<br> la comunicacion e</span></a>
+          <a href="#"><i class="fa fa-spinner"></i> <span>Dribbble se comunica con nosotros<br> la comunicacion e</span></a>
+          <a href="#"><i class="fa fa-facebook"></i> <span>CodePen se comunica con nosotros<br> la comunicacion e</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="info ">
+    <div class="">
+        <div class="row">
+            <div id="contentSection">
+                  <section class="content">
+                    <article>
+                      <h2>Title</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </article>        
+                  </section>
+                  <section class="image">
+                    <div class="backgroundImage" id="first"></div>
+                  </section>      
+                  <section class="content">
+                    <article>
+                      <h2>Title</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </article>
+                  </section>    
+                  <section class="content">
+                    <article>
+                      <h2>Title</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </article>
+                  </section>       
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="">
+            <ul class="alt-nav">
+                  <div class="alt-nav-item cat-factory-radio col-md-3 col-sm-3 col-xs-6" data-hover="caption-replace-factory-radio">
+                    <a href="#">
+                      <div class="icon"><i class="fa fa-credit-card" aria-hidden="true"></i></div>
+                      <div class="cat-shadow"></div>
+                      <div class="alt-nav-item-title">
+                        Replace<br /> Factory Radio
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="alt-nav-item cat-remote-start col-md-3 col-sm-3 col-xs-6" data-hover="caption-remote-start">
+                    <a href="#">
+                      <div class="icon"><i class="fa fa-credit-card" aria-hidden="true"></i></div>
+                      <div class="cat-shadow"></div>
+                      <div class="alt-nav-item-title">
+                        Add<br /> Remote Start
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="alt-nav-item cat-backup-cam col-md-3 col-sm-3 col-xs-6" data-hover="caption-backup-cam">
+                    <a href="#">
+                      <div class="icon"><i class="fa fa-credit-card" aria-hidden="true"></i></div>
+                      <div class="cat-shadow"></div>
+                      <div class="alt-nav-item-title">
+                        Add BackUp Cam<br /> to Factory Radio
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="alt-nav-item cat-add-amp col-md-3 col-sm-3 col-xs-6" data-hover="caption-add-amp">
+                    <a href="#">
+                      <div class="icon"><i class="fa fa-credit-card" aria-hidden="true"></i></div>
+                      <div class="cat-shadow"></div>
+                      <div class="alt-nav-item-title">
+                        Add Amp to<br /> Factory Radio
+                      </div>
+                    </a>
+                  </div>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="alt-nav-caption">
+    <div class="container">
+        <div class="row">
+            <div class="alt-caption caption-default active-caption">
+                <div class="half text-right col-md-6 col-sm-6 col-xs-12">Hover Over an Option</div>
+                <div class="half text-left col-md-6 col-sm-6 col-xs-12">To get a detailed description of each category<br/> and it's available options.</div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="alt-caption caption-replace-factory-radio">
+                <div class="half text-right col-md-6 col-sm-6 col-xs-12">Replace Factory Radio</div>
+                <div class="half text-left col-md-6 col-sm-6 col-xs-12">Interfaces & harnesses allow you to retain your vehicle’s<br />functions when installing an aftermarket radio</div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="alt-caption caption-remote-start">
+                <div class="half text-right col-md-6 col-sm-6 col-xs-12">Add Remote Start</div>
+                <div class="half text-left col-md-6 col-sm-6 col-xs-12">Lorem ipsum dolor sit amet, consectetur.Duis id posuere risus.<br />dsaiuhads adsoijf.</div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="alt-caption caption-backup-cam">
+                <div class="half text-right col-md-6 col-sm-6 col-xs-12"> Add BackUp Cam to Factory Radio </div>
+                <div class="half text-left col-md-6 col-sm-6 col-xs-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>Duis id posuere risus. Vestibulum ac condimentum nisl. </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="alt-caption caption-add-amp">
+                <div class="half text-right col-md-6 col-sm-6 col-xs-12">Add Amp to Factory Radio</div>
+                <div class="half text-left col-md-6 col-sm-6 col-xs-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>Duis id posuere risus. Vestibulum ac condimentum nisl.</div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
