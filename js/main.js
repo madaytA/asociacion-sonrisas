@@ -1,3 +1,4 @@
+
 // -----slider---------
  function bannerSwitcher() {
     next = $('.sec-1-input').filter(":checked").next('.sec-1-input');
