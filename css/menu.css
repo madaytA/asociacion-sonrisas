@@ -30,7 +30,7 @@ header.global nav { /*border-top: 4px solid rgb(223,189,153);*/ margin-top: 2.5%
   min-height: 40px; }
 header.global nav #hamburger {display: none; cursor: pointer; text-align: center; line-height: 46px; color: #dddddd; }
 @media screen and (max-width: 768px) {
-  header.global nav #hamburger {display: block; color: #fff; background: rgba(221,19,123,.8); } 
+  header.global nav #hamburger {display: block; color: #fff; background: rgb(212,42,94); } 
 }
 header.global nav ul {margin: 0;/*padding: 0 25px;*/ display: block; }
 @media screen and (max-width: 768px) {
@@ -79,7 +79,7 @@ header.global nav ul li a:hover {color: rgba(221,19,123,.8);}
 header.global nav ul .menu-list:hover span{border-top: 4px solid rgba(221,19,123,.9);}
 header.global nav ul li .border-bott:hover {border-bottom: 4px solid rgba(221,19,123,.8);}
 header.global nav ul li.home { min-width: 46px; border-right: none; text-align: center; }
-header.global nav ul li.home i { color:rgba(221,19,123,.9); font-size: 21px; }
+header.global nav ul li.home i { font-size: 21px; }
 header.global nav ul li.home span {display: none; }
 header.global nav ul li .sub-indicator, header.global nav ul li .top-menu ul li a .sub-indicator { right: 7px; top: 50%; margin-top: -2px;
   position: absolute; display: inline-block; content: ''; width: 0; height: 0; border: 4px solid rgba(0, 0, 0, 0); border-top: 4px solid #3c4856; }
@@ -88,7 +88,7 @@ header.global nav ul li .sub-indicator, header.global nav ul li .top-menu ul li 
   .wrap .global .date-search .box { width: 600px; height: 0; margin-top: -1.5%; padding: 0 17px 0 0; }
 }
 @media screen and (max-width: 991px){
-  .wrap .global .date-search .box { width: 480px; height: 0; border-bottom: 33px solid rgb(221,19,123); float: right;
+  .wrap .global .date-search .box { width: 480px; height: 0; border-bottom: 33px solid rgb(212,42,94); float: right;
     /*position: absolute; right: -30%;*/ margin-top: -2.5%; padding: 0 10px 0 0; position: relative; z-index: 9999;}
   .wrap .global .date-search .box .icon{ margin-top:-4%; margin-right: 2%; display: inline-block;}
 }
@@ -105,3 +105,37 @@ header.global nav ul li .sub-indicator, header.global nav ul li .top-menu ul li 
   header.global .branding { height: 80px;}
 }
 
+
+/*------footer-------------*/
+footer{font-family: 'PT Sans', sans-serif; background: rgba(11,22,60,.9); color: #fff; padding: 30px 0;}
+footer img{margin-bottom: 8%;}
+footer ul{margin-top: 10px;}
+footer ul li i{color: rgb(212,42,94); width: 10px;}
+footer ul li a{color: #fff;}
+footer ul li a:hover{color: #fff;}
+footer h5{text-align: left; color:rgb(212,42,94); text-transform: uppercase; font-family:'Oswald', sans-serif; font-weight: 400;}
+footer .border-col{border-right: 1px dashed #999; border-left: 1px dashed #999;}
+footer .contact .icon-tel i{font-size: 45px; color:#fff;}
+footer .contact h3{color: #fff; font-weight: bold;}
+footer .contact{ font-size: 13px;}
+footer .contact span{color: rgb(212,42,94);}
+footer .contact .copyright{margin-top: 20px;}
+
+@media screen and (max-width: 767px) {
+  footer .mg-top .text-right{text-align: center;}
+  footer .mg-top .text-left{text-align: center;}  }
+@media screen and (max-width: 500px){
+  footer .contact h3{font-size:18px; text-align:center; }
+  footer .contact h4{font-size:16px; text-align:center; }
+  footer .contact .icon-tel i{font-size: 36px;}
+  footer img{width: 100%;}
+}
+@media screen and (max-width: 430px){
+  footer .col-xs-4{width: 100%;}
+  footer .mg-top{padding-top: 15px;}
+  footer img{width:initial;}
+  footer img{margin-bottom: 4%;}
+  footer .border-col{border-right:none; border-left:none;}
+  footer .border-col ul{margin-left: 27%;}
+  footer h5{text-align: center;}
+}

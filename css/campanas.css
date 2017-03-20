@@ -1,7 +1,7 @@
 /**{outline: 1px solid red;}*/
 
 body h1, body h2, body h3, body h4, body h5, body h6, body ul, body li { margin: 0; padding: 0;}
-body, p {margin: 0;}
+body {margin: 0;}
 body{font-family: 'PT Sans', sans-serif;}
 header{ text-align: center;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(221,221,221,1);
@@ -16,9 +16,9 @@ header{ text-align: center;
 .title-page h2{font-weight: bold; color: rgb(212,42,94); padding: 40px 0 20px; font-family:'Oswald', sans-serif; }
 .title-page hr{ margin: 0px; width: 10%; border-top: 3px solid rgb(212,42,94); } 
 
-
-.formulario{padding: 50px 0; }
-.formulario .mapa iframe {width: 100%; }
-.formulario #contact-area input, textarea {width: 100%; padding: 5px 10px; margin-bottom: 10px; }
-.formulario #contact-area .submit-button {width:40%; background: #ccc; color: #6f6c6c; border:1px solid #ccc; }
-.formulario #contact-area .submit-button:hover { background: rgba(11,22,60,.8); color: #fff; border:1px solid; }
+.content-info{padding: 50px; }
+.content-info .campaña {padding: 15px 0; background: #ccc; }
+.content-info .campaña img{width: 100%; }
+.content-info .campaña .texto{background: #eee; padding: 10px; }
+.content-info .campaña .texto h5{color: #58595b; font-family: 'Oswald',sans-serif; }
+.content-info .campaña .texto p{color: #8080882; margin-top: 5px; margin-bottom: 0px;}

@@ -1,0 +1,18 @@
+/**{outline: 1px solid red;}*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+body h1, body h2, body h3, body h4, body h5, body h6, body ul, body li { margin: 0; padding: 0;}
+body {margin: 0;}
+body{font-family: 'PT Sans', sans-serif;}
+header{border-bottom: 2px solid #eee; text-align: center; }
+.control{margin: 40px 0 0;}
+.control hr{color: #ccc; margin: 0px;}
+.control .box-links p{color: #ccc; padding: 7px 20px;}
+.control .box-links a{color: #000; font-size: 12px;}
+.title-page h2{font-weight: bold; color: rgb(212,42,94); padding: 40px 0 20px; font-family:'Oswald', sans-serif; }
+.title-page hr{ margin: 0px; width: 10%; border-top: 3px solid rgb(212,42,94); }
+.content-info {padding: 40px 0; }
+.content-info h3{font-weight: bold; color: rgba(11,22,60,.8); font-family:'Oswald', sans-serif; font-size: 26px;}
+.content-info p{color: #505050; margin: 10px 0;} 
+
+/*924 por 140*/

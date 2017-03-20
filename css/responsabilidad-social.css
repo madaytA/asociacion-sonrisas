@@ -16,8 +16,8 @@ header{ text-align: center;
 .title-page h2{font-weight: bold; color: rgb(212,42,94); padding: 40px 0 20px; font-family:'Oswald', sans-serif; }
 .title-page hr{ margin: 0px; width: 10%; border-top: 3px solid rgb(212,42,94); } 
 /*-----preguntasss------------*/
-.ask .cont-tabs {border-bottom: 1px solid #cccccc; width: 100%; margin-left: 0px;}
-.ask .cont-tabs li {display: inline-block; width: 170px; text-align: center; margin: 0 1px;}
+/*.ask .cont-tabs {border-bottom: 1px solid #cccccc; width: 100%; margin-left: 0px;}
+.ask .cont-tabs li {display: inline-block; width: 200px; text-align: center; margin: 0 1px;}
 .ask .cont-tabs li a {background: rgba(11,22,60,.8); display: block; text-decoration: none; font-family: 'PT Sans', sans-serif; font-size: 14px; color: #fff;
   padding: 10px 0; position: relative;}
 .ask .cont-tabs li:hover a {background: #ccc; color: rgb(11,22,60);}
@@ -26,31 +26,18 @@ header{ text-align: center;
 .ask .cont-tabs li a.activo:after {bottom: -1px;}
 .ask .cont-info-tabs div {display: none; font-family:'PT Sans', sans-serif; color: #505050; font-size: 14px; margin-top: 20px;}
 .ask .cont-info-tabs div.activo { display: block;}
+*/
 
-/*---acordion-----------*/
-.accordion {margin: 1rem 0; padding: 0; list-style: none; border-top: 1px solid #e5e5e5; text-align: initial;}
-.accordion-item {border-bottom: 1px solid #e5e5e5;}
-.accordion-thumb {margin: 0; padding: .8rem 0; cursor: pointer; font-weight: 500; color: rgba(11,22,60,.9);}
-.accordion-thumb::before {
-  content: '';
-  display: inline-block;
-  height: 7px;
-  width: 7px;
-  margin-right: 1.5rem;
-  margin-left: .5rem;
-  vertical-align: middle;
-  border-right: 1px solid;
-  border-bottom: 1px solid;
-  color: rgb(11,22,60);
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  -webkit-transition: -webkit-transform .2s ease-out;
-  transition: -webkit-transform .2s ease-out;
-  transition: transform .2s ease-out;
-  transition: transform .2s ease-out, -webkit-transform .2s ease-out;
-}
-.accordion-panel {margin: 0; padding-bottom: .8rem; display: none;}
-.accordion-item.is-active .accordion-thumb::before {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
+.section-info{padding: 50px 0;}
+.section-info .tab-content{padding: 20px 0 0;}
+/*.section-info .tab-content .title .images img{width: 100% ;}*/
+.section-info .tab-content .title h4{color: rgb(11,22,60);}
+.section-info .tab-content .title p{color: #505050; margin-top: 10px;}
+.section-info .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+  background-color: #fff; font-weight: 100; border: 1px solid #ccc; border-bottom: 1px solid #fff;}
+.section-info .nav-tabs>li>a{color: #fff; font-weight: 400; border:none; margin-right: 9px; border-radius: 0px; 
+	background:rgba(11,22,60,.8); border:1px solid rgba(11,22,60,.1);}
+.section-info .nav-tabs > li.active > a{color: rgb(11,22,60); border-radius: 0px;}
+.section-info .nav-tabs > li a:hover{background-color: #ccc; color:rgba(11,22,60,.9);border:1px solid #ccc; }
+.section-info .nav-tabs>li{float: none; margin: 2px 0; display: inline-block; padding-right: 0px; padding-left: 0px;}
+
