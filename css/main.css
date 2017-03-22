@@ -247,20 +247,20 @@ ul.alt-nav {display: flex; flex-flow: row wrap; justify-content: space-around; l
   background-image: url('../img/fondo-testimonio.jpg'); background-size: 100px;
 }
 .content-servicios .opacity{background: rgba(225,225,225,.8); padding: 50px 0 40px;}
-.content-servicios .fondo{background: rgba(11,22,60,.8); padding-bottom: 3%; padding-right: 15px; padding-left: 15px;}
+.content-servicios .fondo{background: rgba(11,22,60,.8); padding-bottom: 3%; padding-right: 15px; padding-left: 15px; position: relative;}
 .content-servicios .box-servis{ width: 400px; height: 0; border-right: 25px solid transparent; border-bottom: 35px solid rgb(212,42,94);
- margin-top: -1%; padding: 0 15px 0 0; float: left; margin-left: -1.3%;}
+ padding: 0 15px 0 0; position: absolute; top: -3%; left:0px; }
 .content-servicios .box-servis h4{color: #fff; padding: 8px 0;}
 .content-servicios .box-servis h4 span{font-weight: bold; text-transform: uppercase;}
 .content-servicios .text-in{ color: #fff; padding-top: 4%; }
 .content-servicios .text-in .cuadro { padding: 10px; background: #ccc; margin: 10px 0;}
 .content-servicios .text-in .cuadro img{width: 100%;}
-.content-servicios .text-in .text {background: #eee; /*padding: 10px;*/ position: relative;}
-.content-servicios .text-in .text .padding-box {padding: 10px;}
+.content-servicios .text-in .text {background: #eee; position: relative;}
+.content-servicios .text-in .text .padding-box {padding: 10px; position: relative;}
 .content-servicios .text-in .text h5 {color:#58595b; text-align: left; padding: 5px 0;font-family:'Oswald', arial serif;}
 .content-servicios .text-in .text p{color: #808082; text-align: justify;}
 .content-servicios .text-in .text .box-more{ width: 50px; height: 0; border-left: 20px solid transparent; border-bottom: 25px solid #ccc;
- margin-top: -9.5%; padding: 0 3px 0 0; float: right; /*position: absolute; right: 5%;*/}
+ right:0px; bottom: 0px;  padding: 0 3px 0 0; position: absolute;}
 .content-servicios .text-in .text .box-more i{padding: 6px 0;}
 .content-servicios .text-in .text .box-more:hover {border-bottom: 25px solid rgb(212,42,94);}
 .content-servicios .title h3{color:#eee; font-family:'Oswald', sans-serif; font-weight: 400; font-size: 20px; text-transform:uppercase; }
@@ -329,12 +329,12 @@ ul.alt-nav {display: flex; flex-flow: row wrap; justify-content: space-around; l
 
 @media only screen and (min-width: 1441px ) and (max-width: 1920px){
 }
-@media screen and (max-width: 1093px){
+@media screen and (max-width: 1093px){/*
  .content-servicios .box-servis{margin-left: -1.5%;}
- .content-servicios .text-in .text .box-more{margin-top: -11.8%; position: absolute; right: 0px;}
+ .content-servicios .text-in .text .box-more{margin-top: -11.8%; position: absolute; right: 0px;}*/
 }
 @media screen and (max-width: 1024px){
- .content-servicios .box-servis{margin-left: -1.6%;}
+ /*.content-servicios .box-servis{margin-left: -1.6%;}*/
  .content-tres .box-prestamo{margin-left: -0.1%;}
 }
 @media screen and (max-width: 991px){
@@ -343,8 +343,8 @@ ul.alt-nav {display: flex; flex-flow: row wrap; justify-content: space-around; l
   .content-servicios .col-sm-6{padding-top: 15px; padding-bottom: 10px;}
 }
 @media screen and (max-width: 768px){
-  .content-servicios .box-servis{margin-left: -2.1%;}
-  .content-servicios .text-in .text .box-more{margin-top: -7.8%; position: absolute; right: 0px;}
+  /*.content-servicios .box-servis{margin-left: -2.1%;}*/
+  /*.content-servicios .text-in .text .box-more{margin-top: -7.8%; position: absolute; right: 0px;}*/
 }
 @media screen and (max-width: 620px){
   .link-icon .col-xs-2{width: 33.3%;}
@@ -355,8 +355,8 @@ ul.alt-nav {display: flex; flex-flow: row wrap; justify-content: space-around; l
   .content-tres .texto-rojo{font-size: 50px; padding-top: 13px;}
 }
 @media screen and (max-width: 500px){
-  .content-servicios .box-servis{margin-left: -3.1%; margin-top: -2%;}
-  .content-servicios .text-in .text .box-more{margin-top: -12.1%;}
+  /*.content-servicios .box-servis{margin-left: -3.1%; margin-top: -2%;}*/
+  /*.content-servicios .text-in .text .box-more{margin-top: -12.1%;}*/
   .content-tres .box-prestamo{margin-left: -0.2%; margin-top: -3%;}
 }
 @media screen and (max-width: 430px){
@@ -366,14 +366,14 @@ ul.alt-nav {display: flex; flex-flow: row wrap; justify-content: space-around; l
   .content-tres .title-prest {text-align: center;}
   .content-tres .texto-gris{margin-top: 18px;}
   .content-tres .texto-gris p span{font-size: 25px;}
-  .content-servicios .box-servis{width: 100%; border-right: none; margin-top: -4%; margin-left: 0px; padding: 0px;}
+  .content-servicios .box-servis{width: 100%; border-right: none; /*margin-top: -4%; margin-left: 0px;*/ padding: 0px;}
   .content-tres .box-prestamo{width: 100%; border-right: none;}
-  .content-servicios .text-in .text .box-more {margin-top: -6.7%;}
+  /*.content-servicios .text-in .text .box-more {margin-top: -6.7%;}*/
 }
 @media screen and (max-width: 375px){
-  .content-servicios .text-in .text .box-more {margin-top: -7.7%;}
+  /*.content-servicios .text-in .text .box-more {margin-top: -7.7%;}*/
 }
 @media screen and (max-width: 320px){
-  .content-servicios .text-in .text .box-more {margin-top: -9.7%;}
+  /*.content-servicios .text-in .text .box-more {margin-top: -9.7%;}*/
   .link-icon .cuadro .responsabilidad-box{padding: 0px;}
 }
