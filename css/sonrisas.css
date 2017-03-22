@@ -152,6 +152,7 @@ body a { text-decoration: none;}
 .areas{padding: 60px 0;}
 .areas h4{font-weight: bold; color:rgba(11,22,60,.8); font-family: 'Oswald', sans-serif; margin: 10px 0;}
 .areas p{color: #808082;}
+.areas .icon img{width: 100%;}
 .areas .icon i{font-size: 50px; color: rgba(11,22,60,.8);}
 .areas .area1 .info hr{width: 40%; border-top: 3px solid rgba(11,22,60,.8); margin: 10px 0;}
 
@@ -229,13 +230,14 @@ body a { text-decoration: none;}
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
-.content-item:hover .overlay-content button{background: rgba(11,22,60,.8); color: #fff; border:none; padding: 5px 15px; border:1px solid rgba(11,22,60,.1);}
+.content-item:hover .overlay-content button{background: rgba(11,22,60,.7); color: #fff; border:none; padding: 5px 15px; 
+  border:1px solid rgba(11,22,60,.1); position: absolute;}
 .content-item:hover .overlay-content button:hover{ border:1px solid #fff;}
 
 /*---------paralax contacto----------*/
 body {margin: 0;}
 .parallax {height: 100%; background-image: url('../img/fondo-footer.jpg'); background-position: center;background-size: cover;}
-.parallax .opacity {height: 100%; background-color:rgba(11,22,60,.9); width: 100%; padding: 30px 0;}
+.parallax .opacity {height: 100%; background-color:rgba(11,22,60,.8); width: 100%; padding: 30px 0;}
 .parallax .image h2, p, h4, h3 {color: #fff;}
 .parallax .image h2{text-transform: uppercase; text-shadow: 1px 1px 1px #000; margin-bottom: 10px; font-size: 24px;}
 .parallax .image .contenido .icon-tel i {font-size: 40px; color: #fff; text-shadow:0 1px 1px #000; }
