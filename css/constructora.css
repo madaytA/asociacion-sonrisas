@@ -8,7 +8,12 @@ header{ text-align: center;
   -moz-box-shadow: 0px 0px 5px 0px rgba(221,221,221,1);
   box-shadow: 0px 0px 5px 0px rgba(221,221,221,1);
 }
-
+/*--------hover-img-------*/
+.view {width: 100%; height: 100%; float: left; overflow: hidden; position: relative; text-align: center; cursor: default;}
+.view .mask, .view .content { width: 100%; height: 100%; position: absolute; overflow: hidden; top: 0; left: 0;}
+.view img { display: block; position: relative;}
+.second-effect .mask { opacity: 0;  overflow:visible; border:0px solid rgba(11,22,60,0.4); box-sizing:border-box; transition: all 0.4s ease-in-out;}
+.second-effect:hover .mask { opacity: 1; border:200px solid rgba(11,22,60,0.4);}
 /*-------------------slider-------------*/
 body section {display: block;}
 #section-1 h1 { font-family: Montserrat, sans-serif; font-weight: 700; text-transform: uppercase;}
@@ -57,7 +62,9 @@ body a { text-decoration: none;}
 /*------works---------*/
 .works {padding: 70px 0; background-color: #E9E9EA;}
 .works .imagen img{width: 100%;}
-.works .texto h4{padding: 15px 0; color: rgba(11,22,60,.8); font-family: 'Oswald', sans-serif; font-weight: 400;}
+.works .imagen .view {margin-bottom: 15px;}
+.works .imagen .second-effect:hover .mask { opacity: 1; border:130px solid rgba(11,22,60,0.4);}
+.works .texto h4{margin: 15px 0; color: rgba(11,22,60,.8); font-family: 'Oswald', sans-serif; font-weight: 400;}
 .works .texto p{color: #818080;}
 
 
@@ -168,18 +175,21 @@ body a { text-decoration: none;}
 }
 
 /*-----preguntasss------------*/
+.section-info {background:#f9f9f9;}
 .section-info section{background-image: url('../img/construccion/man-constructor.png'); background-repeat: no-repeat; 
 background-position: right; padding: 70px 0; background-position-y: -40%;}
 .section-info .tab-content{padding: 0;}
 .section-info .tab-content img{width: 100%;}
+.section-info .tab-content i{color: rgba(11,22,60,.8); width: 15px;}
 .section-info .tab-content .title h4{color: rgba(11,22,60,.8); font-family:'Oswald', sans-serif; margin-bottom: 15px;}
-.section-info .tab-content .title p{color: #505050;}
+.section-info .tab-content .title p, li{color: #8e8d8d;}
 .section-info .nav-tabs {border: none;}
 .section-info .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
   background-color: #fff; font-weight: 100; border: 1px solid #ccc;}
 .section-info .nav-tabs li a.activo{background: #fff;}
 .section-info .nav-tabs>li>a{color:#999; font-weight:400; margin-right:0px; border-radius:0px;background:#fff; border:1px solid rgba(11,22,60,.1);}
-.section-info .nav-tabs > li.active > a{color: rgb(11,22,60); border-radius: 0px; font-weight: bold; border-left: 5px solid; font-size:15px;}
+.section-info .nav-tabs > li.active > a{color: rgb(11,22,60); border-radius: 0px; font-weight: bold; border-left: 5px solid; font-size:15px; 
+  background:#f9f9f9; border-right: 0px solid;}
 .section-info .nav-tabs > li a:hover{background-color: #ccc; color:rgba(11,22,60,.9);border:1px solid #ccc; border-left: 5px solid #ccc; }
 .section-info .nav-tabs>li{float: none; margin-bottom: 5px;}
 
@@ -196,14 +206,14 @@ background-position: right; padding: 70px 0; background-position-y: -40%;}
 .back-img button:hover{ background: #fff; color: rgb(11,22,60); border: none; }
 /*------------note-----------*/
 .note{background-image: url('../img/construccion/bg-edificio.jpg'); background-size: cover;}
-.note .info{padding: 50px 20px;}
+.note .info{padding: 50px 20px 20px;}
 .note .info h3 {color: rgba(11,22,60,.8); font-weight: 500; padding-bottom: 20px;}
 .note .info h4 {color: rgba(11,22,60,.8); font-weight: bold; padding: 15px 0;}
 .note .info i {color: rgba(11,22,60,.8); width: 15px;}
 
 /*-------------clientes-------------*/
 .section-aliados { padding: 70px 0;}
-.section-aliados h4 { padding-bottom: 40px; text-transform: uppercase; color: #58595b;}
+.section-aliados h4 { padding-bottom: 40px; text-transform: uppercase; color: rgba(11,22,60,.8);}
 .section-aliados ._fondo img{ filter: grayscale(98%); transition: grayscale 0.5s; width: 90%; margin: auto;}
 .section-aliados ._fondo img:hover { filter: grayscale(0);}
 .section-aliados .col-md-2 { width: 20%;}
@@ -216,9 +226,12 @@ background-position: right; padding: 70px 0; background-position-y: -40%;}
   .section-info section{background-image: none; padding: 70px 0;}
   #section-1 { height: 500px; max-height: 740px;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 7em;}
+  .note .info{padding: 30px 0px 10px 20px;}
 }
 @media (max-width:767px) {
   .tab-content > .active{padding-top: 20px;}
+  .note .info{padding: 50px 0px;}
+  .note .imagen{padding: 50px 0 0;}
 }
 @media (max-width:660px) {
   .section-aliados .col-md-2 {width: 33.3%;}
