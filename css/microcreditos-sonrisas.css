@@ -25,9 +25,7 @@ body a { text-decoration: none;}
 #section-1 .content-slider .slider { position: relative; width: inherit; height: inherit; overflow: hidden;}
 #section-1 .content-slider .slider .banner {position: absolute; top: 0; left: 0; opacity: 0; z-index: 0; width: inherit; height: inherit;
   text-align: center; background-repeat: no-repeat; background-position: 50% 50%; transition: all .5s ease;}
-#section-1 .content-slider .slider .banner .banner-inner-wrapper { height: 100%; padding-top: 6em;
-  /*background-image: linear-gradient(rgba(11,22,60, 0.8), rgba(223, 189, 153, 0.8)); box-sizing: border-box;*/
-}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper { height: 100%; padding-top: 6em;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {padding-bottom: 0.3em; font-family: 'Kaushan Script', cursive;
   font-weight: 400; font-size: 2.5em; text-transform: none;
 }

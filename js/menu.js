@@ -2,10 +2,10 @@
 
 // -----menu------------
 $(".submenu").click(function(){
-      $(this).children("ul").slideToggle();
+      $(this).children(".ul-list").slideToggle();
     })
 
-    $("ul").click(function(p){
+    $(".ul-list").click(function(p){
       p.stopPropagation();
     });
 
