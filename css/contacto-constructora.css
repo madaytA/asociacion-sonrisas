@@ -1,0 +1,33 @@
+/**{outline: 1px solid red;}*/
+
+body h1, body h2, body h3, body h4, body h5, body h6, body ul, body li { margin: 0; padding: 0;}
+body, p {margin: 0;}
+body{font-family: 'PT Sans', sans-serif;}
+header{ text-align: center;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(221,221,221,1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(221,221,221,1);
+  box-shadow: 0px 0px 5px 0px rgba(221,221,221,1);
+}
+
+
+.section-contact {padding: 70px 0; background: #f9f9f9;}
+.section-contact .photo {background-image: url('../img/construccion/foto-contacto1.jpg'); width: 100%;  height: 250px; 
+	background-position: right; background-size: cover;}
+.section-contact .photo .opacity{background: rgba(11,22,60,.3); width: 100%; height: 250px;}
+.section-contact .photo img{width: 100%; }
+.section-contact .mapa iframe{width: 100%; }
+.section-contact .formulario h2{color: rgba(11,22,60,.8); font-family: 'Oswald', sans-serif; }
+.section-contact .formulario p{padding: 20px 0; color: #8e8d8d;  }
+.section-contact .formulario #contact-area input, textarea{width: 100%; margin-bottom: 15px; padding: 5px 10px; }
+.section-contact .formulario #contact-area .submit-button{background: rgba(11,22,60,.8); color: #fff; border: none; }
+.section-contact .formulario #contact-area .submit-button:hover {background: rgba(11,22,60,.4); color: #fff; border: none; }
+ {background: rgba(11,22,60,.4); color: #fff; border: none; }
+.section-contact .formulario #contact-area .submit-button:hover {background: rgba(11,22,60,.4); color: #fff; border: none; }
+.section-contact .formulario #contact-area .submit-button:hover {background: rgba(11,22,60,.4); color: #fff; border: none; }
+.section-contact .formulario #contact-area .submit-button:hover {background: rgba(11,22,60,.4); color: #fff; border: none; }
+.section-contact .formulario #contact-area .submit-button:hover {background: rgba(11,22,60,.4); color: #fff; border: none; }
+.section-contact .formulario #contact-area .submit-button:hover {background: rgba(11,22,60,.4); color: #fff; border: none; }
+.section-contact .formulario #contact-area .submit-button:hover {background: rgba(11,22,60,.4); color: #fff; border: none; }
+.section-contact .formulario #contact-area .submit-button:hover {background: rgba(11,22,60,.4); color: #fff; border: none; }
+.section-contact .formulario #contact-area .submit-button:hover {background: rgba(11,22,60,.4); color: #fff; border: none; }
+

@@ -174,14 +174,16 @@ body a { text-decoration: none;}
   transition: all 0.35s 0s ease-out;
 }
 
-/*-----preguntasss------------*/
+/*-----sub menu------------*/
 .section-info {background:#f9f9f9;}
 .section-info section{background-image: url('../img/construccion/man-constructor.png'); background-repeat: no-repeat; 
 background-position: right; padding: 70px 0; background-position-y: -40%;}
 .section-info .tab-content{padding: 0;}
+.section-info .tab-content .line-respon li {line-height: 2;}
 .section-info .tab-content img{width: 100%;}
 .section-info .tab-content i{color: rgba(11,22,60,.8); width: 15px;}
-.section-info .tab-content .title h4{color: rgba(11,22,60,.8); font-family:'Oswald', sans-serif; margin-bottom: 15px;}
+.section-info .tab-content .title h4{color: rgba(11,22,60,.8); font-family:'Oswald', sans-serif; margin-bottom: 10px;}
+.section-info .tab-content .title h5{color: #818080; padding: 10px 0; text-transform: uppercase; font-size: 13px; font-weight: bold;}
 .section-info .tab-content .title p, li{color: #8e8d8d;}
 .section-info .nav-tabs {border: none;}
 .section-info .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
@@ -192,7 +194,7 @@ background-position: right; padding: 70px 0; background-position-y: -40%;}
   background:#f9f9f9; border-right: 0px solid;}
 .section-info .nav-tabs > li a:hover{background-color: #ccc; color:rgba(11,22,60,.9);border:1px solid #ccc; border-left: 5px solid #ccc; }
 .section-info .nav-tabs>li{float: none; margin-bottom: 5px;}
-
+.section-info .images .imagen-mision{ filter: grayscale(38%); transition: grayscale 0.5s;  margin: auto;}
 
 /*------------sep-img------------*/
 .separador { background-image: url('../img/separador-img.jpg'); background-size:cover; width:100%; padding:70px 0; }
@@ -202,14 +204,17 @@ background-position: right; padding: 70px 0; background-position-y: -40%;}
 
 .back-img{background-image: url('../img/separador-img.jpg'); background-size: cover; width: 100%; padding: 70px 0;}
 .back-img h3{ color: #fff; padding-bottom: 40px; }
+.back-img a{ color: #fff; text-decoration: none;}
 .back-img button{ background: rgba(11,22,60,.8); color: #fff; border: none; padding: 5px 15px;}
-.back-img button:hover{ background: #fff; color: rgb(11,22,60); border: none; }
+.back-img button:hover{ background: #fff; border: none; }
+.back-img button:hover a{ color: rgb(11,22,60); border: none; }
 /*------------note-----------*/
 .note{background-image: url('../img/construccion/bg-edificio.jpg'); background-size: cover;}
 .note .info{padding: 50px 20px 20px;}
 .note .info h3 {color: rgba(11,22,60,.8); font-weight: 500; padding-bottom: 20px;}
 .note .info h4 {color: rgba(11,22,60,.8); font-weight: bold; padding: 15px 0;}
 .note .info i {color: rgba(11,22,60,.8); width: 15px;}
+.note .info li {line-height: 22px; color: #666;}
 
 /*-------------clientes-------------*/
 .section-aliados { padding: 70px 0;}
@@ -218,9 +223,21 @@ background-position: right; padding: 70px 0; background-position-y: -40%;}
 .section-aliados ._fondo img:hover { filter: grayscale(0);}
 .section-aliados .col-md-2 { width: 20%;}
 .section-aliados .border { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+/*-------------contact-------*/
+.contacto{background-image: url('../img/construccion/fondo-contact.jpg'); position: relative; background-position: center;
+color: #fff; height:auto;}
+.contacto .opacity{padding: 50px 0 60px 0; background: rgba(42,50,63,.3); width: 100%;}
+.contacto .opacity h2{font-weight: bold;}
+.contacto .opacity h4{padding: 20px 0; font-style: italic;}
+.contacto .opacity h3{font-weight: bold; display: inline-block;}
+.contacto .opacity h3 span{font-weight: normal; display: inline-block; margin-left: 15px;}
+.contacto .opacity .boton { margin-left: 4%;}
+.contacto .opacity .boton a{ color: #fff; border:1px solid #eee; padding: 7px 20px; text-decoration: none; font-size: 16px;}
+.contacto .opacity .boton a:hover { background: #eee; border:1px solid #eee; text-orientation: none; color: rgb(11,22,60);}
 
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 768px ) and (max-width: 2560px){
+  .section-info .boxheight{height: 340px;}
 }
 @media (max-width:991px) {
   .section-info section{background-image: none; padding: 70px 0;}
