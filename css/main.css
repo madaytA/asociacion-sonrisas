@@ -34,16 +34,16 @@ body a { text-decoration: none;}
 /*#section-1 .content-slider .slider .banner .wraper-1 .line1 {margin:4em 0px 2.5em;}*/
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {padding-bottom: 0.3em; font-family: 'Kaushan Script', cursive;
   font-weight: 400; font-size: 2.5em; text-transform: none;}
-#section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 5em; line-height: 95%;}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 4em; line-height: 95%;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {display: block; width: 4em; height: 0.1875em; margin: 2.5em auto; background: #fff;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button {padding-bottom: 5em; z-index: 15 !important;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a {
   padding: 0.5em 2em; text-align: center; font-size: 0.875em; color: #fff; text-transform: uppercase; border: 0.1875em solid #fff;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
   color: rgba(11,22,60,.7); border-color: rgba(11,22,60,.7); transition: .3s;}
-#section-1 .content-slider .slider #top-banner-1 {background: url('../img/slider-oficio.jpg') no-repeat center center;background-size: cover;}
-#section-1 .content-slider .slider #top-banner-2 {background: url('../img/slide2.jpg') no-repeat center center;background-size: cover;}
-#section-1 .content-slider .slider #top-banner-3 {background: url('../img/slide-5.jpg') no-repeat center center; background-size: cover;}
+#section-1 .content-slider .slider #top-banner-1 {background: url('../img/slide2.jpg') no-repeat center center;background-size: cover;}
+#section-1 .content-slider .slider #top-banner-2 {background: url('../img/slider-2.jpg') no-repeat center center;background-size: cover;}
+#section-1 .content-slider .slider #top-banner-3 {background: url('../img/slider-3.jpg') no-repeat center center; background-size: cover;}
 #section-1 .content-slider nav { position: absolute; bottom: 0.5em; width: 100%; z-index: 10; text-align: center;}
 #section-1 .content-slider nav .controls {display: block; margin: 0 auto; color: #fff;}
 #section-1 .content-slider nav .controls label { position: relative; display: inline-block; width: 20%; height: 3.1em; overflow: hidden;
@@ -89,15 +89,19 @@ body a { text-decoration: none;}
 }
 
 @media only screen and (min-width: 1920px) {
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 24em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 26em;}
   #section-1 .content-slider .slider .banner .wraper-1 { padding-top: 28.5em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 5em; line-height: 95%;}
+}
+@media only screen and (max-width: 1120px) {
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 16em;}
 }
 
 /*@media only screen and (min-width: 1920px) {
   body { font-size: 22px;}
   #section-1 {height: 46em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 12em;}
-}*/
+}
 /*@media only screen and (max-width: 1919px) {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 21em;}
   #section-1 .content-slider .slider .banner .wraper-1 { padding-top: 27.5em;}
@@ -128,10 +132,16 @@ body a { text-decoration: none;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {font-size: 2em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 4.5em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 20em;}
-    #section-1 .content-slider .slider .banner .wraper-1 { padding-top: 22.5em;}
+}
+@media only screen and (min-width: 767px ) and (max-width: 768px){
+  .wrap .global .content{width: 100%;}
 }
 @media only screen and (max-width: 768px) {
   #section-1 .content-slider nav .controls label {width: 19%; font-size: 0.8em;}
+}
+@media only screen and (max-width: 767px) {
+  .areas .icon { width:151px; height: 151px; margin: auto; }
+  .areas .icon2 { width:150px; height: 150px; margin: auto; }
 }
 @media only screen and (max-width: 480px) {
   #section-1 .content-slider nav {bottom: -0.5em; }

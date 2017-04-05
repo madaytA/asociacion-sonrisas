@@ -2,7 +2,7 @@
 
 .sf-menu {margin: 0; padding: 0; list-style: none; }
 .sf-menu * {margin: 0; padding: 0; list-style: none; }
-.sf-menu ul {position: absolute; top: -999em; width: 11.4em;}
+.sf-menu ul {position: absolute; top: -999em; width: 11.6em;}
 .sf-menu ul li {width: 100%; }
 .sf-menu li {float: left; position: relative; }
 .sf-menu li:hover {visibility: inherit; }
@@ -18,8 +18,12 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {left: 10em; top: 0
 .wrap .global .date-search h5 {padding: 10px 0; color: #fff;}
 .wrap .global .date-search .box { width: 500px; height: 0; border-left: 20px solid transparent; border-bottom: 35px solid rgb(212,42,94);
    /* position: absolute; right: -17%;*/ margin-top: -2%; padding: 0 15px 0 0; float: right; }
+.wrap .global .date-search .box .email{color: #fff; text-decoration:none;}
+.wrap .global .date-search .box .email:hover{ text-decoration:underline;}
 .wrap .global .date-search .box .icon{background: #fff; border-radius: 50%; width: 25px; height: 25px; margin-top:-1%; margin-right: 2%; display: inline-block;}
 .wrap .global .date-search .box .icon i{color:rgb(221,19,123);  padding: 5px 9px;}
+.wrap .global .date-search .box .icon:hover{background: #eee;}
+.wrap .global .date-search .box .icon:hover i{color:  rgb(11,22,60);}
 header.global .branding {background: #fff; height: auto; overflow: none; }
 header.global .branding h1 {margin: 0; }
 header.global .branding img.logo {margin: 10px 0 10px 0px;}
@@ -28,6 +32,7 @@ header.global nav { /*border-top: 4px solid rgb(223,189,153);*/ margin-top: 2.5%
   -moz-box-shadow: 0px 0px 0px 0px rgba(11,22,60,.7), 0px 4px 0px 0px rgb(223,189,153);
   box-shadow: 0px 0px 0px 0px rgba(11,22,60,.7), 0px 4px 0px 0px rgb(223,189,153);*/
   min-height: 40px; }
+
 header.global nav #hamburger {display: none; cursor: pointer; text-align: center; line-height: 46px; color: #dddddd; }
 @media screen and (max-width: 768px) {
   header.global nav #hamburger {display: block; color: #fff; background: rgb(212,42,94); } 
@@ -58,7 +63,7 @@ header.global nav ul li ul {margin-top: 9px; background: rgba(11,22,60,.8); bord
 header.global nav ul li ul li {border-top: 1px solid #474747; border-bottom: 1px solid #ccc; border-right: none; border-left: none; }
 header.global nav ul li ul li:first-child { border-top: none; }
 header.global nav ul li ul li:last-child { border-bottom: none; }
-header.global nav ul li ul li a { padding: 10px 15px; line-height: 1em; float: left; }
+header.global nav ul li ul li a { padding: 10px 10px; line-height: 1em; float: left; }
 header.global nav ul li ul li:hover { padding-left: 5px;
   -webkit-transition-property: all;
   -moz-transition-property: all;
