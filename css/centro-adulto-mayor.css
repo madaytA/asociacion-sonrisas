@@ -171,20 +171,38 @@ background-repeat: no-repeat; background-position: 50% 50%; transition: all .5s 
 .section-alianzas i{font-size: 20px; color: rgb(212,42,94);}
 
 .section-alianzas li{line-height: 1.9; color: #8e8d8d;}
+.section-alianzas .name-home{color: #818080; font-weight: bold;}
 .section-alianzas .circle{display: inline-block; border: 1px solid rgb(212,42,94); padding: 7px 15px;border-radius: 50%;height: 40px;
  width: 40px; margin: 5px;}
 .section-alianzas .circle:hover{background: #ccc; border: 1px solid #ccc;}
 .section-alianzas .circle:hover i{color: #fff;}
+.section-alianzas .number{display: inline-block; padding-left: 0%; color: #8e8d8d; font-weight: bold; line-height: 1; font-size:15px;}
+.section-alianzas span{display: block; padding-left: 12%; color: #8e8d8d; font-weight: normal; line-height: 1;}
 
 
 /*--------contacto----------*/
-footer {height: 100%; background:rgba(11,22,60,.9); padding: 30px 0;;}
+/*footer {height: 100%; background:rgba(11,22,60,.9); padding: 30px 0;;}
 footer .image h2, p, h4, h3 {color: #fff;}
 footer .image h2{text-transform: uppercase; text-shadow: 1px 1px 1px #000; margin-bottom: 10px; font-size: 24px;}
 footer .image .contenido .icon-tel i {font-size: 40px; color: #fff; text-shadow:0 1px 1px #000; }
 footer .image h3{ font-weight: bold; text-shadow: 0 1px 1px #000; font-size: 22px; }
-footer .image p{ font-size: 14px; }
+footer .image p{ font-size: 14px; }*/
 
 
 .footer-2{background:rgb(11,22,60); padding: 10px 0; font-size: 13px;}
 .footer-2 span{color:rgb(212,42,94); }
+
+@media only screen and (min-width: 768px ) and (max-width: 991px){
+  .section-talleres figure.snip1200{margin: 5%;}
+}
+@media (max-width:767px) {
+  .section-talleres figure.snip1200{max-width: none;}
+  .section-talleres figure.snip-1{margin-bottom: 10%;}
+}
+@media (max-width:599px) {
+  .section-programas .col-xs-6 {width: 100%;}
+}
+@media (max-width:520px) {
+  .section-talleres section .tab-content .col-xs-6 {width: 100%;}
+  .section-talleres figure.snip-2{margin-bottom: 10%;}
+}

@@ -34,16 +34,16 @@ body a { text-decoration: none;}
 /*#section-1 .content-slider .slider .banner .wraper-1 .line1 {margin:4em 0px 2.5em;}*/
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {padding-bottom: 0.3em; font-family: 'Kaushan Script', cursive;
   font-weight: 400; font-size: 2.5em; text-transform: none;}
-#section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 4em; line-height: 95%;}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 4em; line-height: 95%; text-shadow: 0 1px 1px #666;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {display: block; width: 4em; height: 0.1875em; margin: 2.5em auto; background: #fff;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button {padding-bottom: 5em; z-index: 15 !important;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a {
   padding: 0.5em 2em; text-align: center; font-size: 0.875em; color: #fff; text-transform: uppercase; border: 0.1875em solid #fff;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
   color: rgba(11,22,60,.7); border-color: rgba(11,22,60,.7); transition: .3s;}
-#section-1 .content-slider .slider #top-banner-1 {background: url('../img/slide2.jpg') no-repeat center center;background-size: cover;}
+#section-1 .content-slider .slider #top-banner-1 {background: url('../img/slider-6.jpg') no-repeat center center;background-size: cover;}
 #section-1 .content-slider .slider #top-banner-2 {background: url('../img/slider-2.jpg') no-repeat center center;background-size: cover;}
-#section-1 .content-slider .slider #top-banner-3 {background: url('../img/slider-3.jpg') no-repeat center center; background-size: cover;}
+#section-1 .content-slider .slider #top-banner-3 {background: url('../img/slider-4.jpg') no-repeat center center; background-size: cover;}
 #section-1 .content-slider nav { position: absolute; bottom: 0.5em; width: 100%; z-index: 10; text-align: center;}
 #section-1 .content-slider nav .controls {display: block; margin: 0 auto; color: #fff;}
 #section-1 .content-slider nav .controls label { position: relative; display: inline-block; width: 20%; height: 3.1em; overflow: hidden;
@@ -87,14 +87,13 @@ body a { text-decoration: none;}
   from {margin-left: -100%;}
   to {margin-left: 0;}
 }
-
 @media only screen and (min-width: 1920px) {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 26em;}
   #section-1 .content-slider .slider .banner .wraper-1 { padding-top: 28.5em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 5em; line-height: 95%;}
 }
 @media only screen and (max-width: 1120px) {
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 16em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 19em;}
 }
 
 /*@media only screen and (min-width: 1920px) {
@@ -130,7 +129,6 @@ body a { text-decoration: none;}
 }*/
 @media only screen and (max-width: 860px) {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {font-size: 2em;}
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 4.5em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 20em;}
 }
 @media only screen and (min-width: 767px ) and (max-width: 768px){
@@ -243,18 +241,14 @@ body a { text-decoration: none;}
 .content-item:hover .overlay-content a:hover{ border:1px solid #fff; text-orientation: none;}
 
 /*---------paralax contacto----------*/
-body {margin: 0;}
-.parallax {height: 100%; background-image: url('../img/fondo-footer.jpg'); background-position: center;background-size: cover;}
+/*.parallax {height: 100%; background-image: url('../img/fondo-footer.jpg'); background-position: center;background-size: cover;}
 .parallax .opacity {height: 100%; background-color:rgba(11,22,60,.8); width: 100%; padding: 30px 0;}
 .parallax .image h2, p, h4, h3 {color: #fff;}
-.parallax .image h2{text-transform: uppercase; text-shadow: 1px 1px 1px #000; margin-bottom: 10px; font-size: 24px;}
+.parallax .image h2{text-transform: uppercase; text-shadow: 0px 1px 1px #444; margin-bottom: 10px; font-size: 24px;}
 .parallax .image .contenido .icon-tel i {font-size: 40px; color: #fff; text-shadow:0 1px 1px #000; }
 .parallax .image h3{ font-weight: bold; text-shadow: 0 1px 1px #000; font-size: 22px; }
 .parallax .image p{ font-size: 14px; }
-
-
-.footer-2{background:rgb(11,22,60); padding: 10px 0; font-size: 13px;}
-.footer-2 span{color:rgb(212,42,94); }
+*/
 
 
 
