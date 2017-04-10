@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    /**{outline: 1px solid red;}*/
+
+		* {padding:0; margin:0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+    }
+body{background: #fff;}
+.menu_bar {display:none;}
+header .date-search {background: rgb(11,22,60); color: #fff;}
+header .date-search h5 {padding: 10px 0; color: #fff; margin: 0;}
+header .date-search .box { width: 500px; height: 0; border-left: 20px solid transparent; border-bottom: 35px solid rgb(212,42,94); margin-top: -2%; padding: 0 15px 0 0; float: right; }
+header .date-search .box .email{color: #fff; text-decoration:none;}
+header .date-search .box .email:hover{ text-decoration:underline;}
+header .date-search .box .icon{background: #fff; border-radius: 50%; width: 25px; height: 25px; margin-top:-1%; margin-right: 2%; display: inline-block;}
+header .date-search .box .icon i{color:rgb(221,19,123);  padding: 5px 9px;}
+header .date-search .box .icon:hover{background: #eee;}
+header .date-search .box .icon:hover i{color:  rgb(11,22,60);}
+
+header {width: 100%; background: #fff; font-family: 'PT Sans', sans-serif; position: absolute;}
+header nav { z-index:1000; margin:13px auto;}
+header nav ul { list-style:none; margin-bottom: 0px;}
+header nav ul li {display:inline-block; position: relative;}
+header nav ul li .active {color: rgb(212,42,94);}
+header nav ul li a:hover, a:focus{color: rgb(212,42,94); text-decoration: none; border-bottom: 4px solid rgb(212,42,94);}
+header nav ul li a {color:rgb(11,22,60); display:block; text-decoration:none; padding: 30px 15px 7px; text-transform: uppercase; border-bottom: 4px solid #fff;}
+header nav ul li a span {margin-right:10px;}
+header nav ul li:hover .children {display:block;}
+header .branding .logo {margin:10px 0 10px 0px; }
+header nav ul li .children {display: none; background:rgba(11,22,60,.8);position: absolute; width: 147%; z-index:1000; border-top:4px solid rgb(212,42,94); top: 4.1em;}
+header nav ul li .child-2 {display: none; background:rgba(11,22,60,.8);position: absolute; width: 115%;}
+header nav ul li .children li { display:block; overflow: hidden;}
+header nav ul li .children li a:hover {padding-left: 20px;   -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;}
+
+header nav ul li .children li a {display: block; color: #fff; padding: 10px 5px 10px 15px; text-transform: none; border-bottom: 1px solid #eee;}
+header nav ul li .children li a span { float: right; position: relative; top:3px; margin-right:0; margin-left:10px;}
+header nav ul li .caret { position: relative; top:-1px; margin-left:10px; margin-right:0px;} 
+@media screen and (max-width: 767px) {
+	body {padding-top:80px;}
+	.menu_bar {display:block; width:100%; position: fixed; top:0; height: 70px; box-shadow: 0 2px 3px #ccc; background: #fff;}
+	.menu_bar .bt-menu {display: block; padding: 3px 20px; color: #fff; overflow: hidden; text-decoration: none; height: 70px;}
+	.menu_bar span {float: right; font-size: 33px; padding-top: 15px; color: rgb(221,19,123);}
+	header nav {width: 80%;height: calc(100% - 70px); position: fixed; right:100%; margin: 0; /*overflow: scroll*/; margin-top: -9px; background: #222c4f;}
+	header nav ul li {display: block; background: #222c4f; }
+	header nav ul li a { display: block; color: #fff; padding: 15px 20px; }
+	header nav ul li:hover .children {display: none;}
+	header nav ul li .children {width: 100%;position: relative; background: #999; top: -4px;}
+	header nav ul li .children .bot {border-bottom: 1px solid #666; }
+	header nav ul li .children li {background: rgba(11,22,60,.7);}
+	header nav ul li .children li a {margin-left:20px; border-bottom: 0px;}
+	header nav ul li .caret {float: right;}
+}
+
+	</style>
+</head>
+<body>
+
+	<header>
+	<div class="date-search hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 text-left"><h5>Linea gratuita <span> 054-436555</span></h5></div>
+            <div class="col-md-6 col-sm-6 hidden-xs text-right"></div>
+          </div>
+        </div>
+        <div class="box list-inline hidden-xs text-center">
+          <h5><a href="https://www.facebook.com/Asociaci%C3%B3n-Sonrisas-768335219878087/?fref=ts"><div class="icon"><i class="fa fa-facebook"></i></div></a>  <a class="email" href="mailto:someone@example.com?Subject=Hello%20again" target="_top">asociacionsonrisas@gmail.com</a> </h5>
+        </div>
+    </div>
+    <div class="menu_bar">
+		<a href="#" class="bt-menu"><span class="fa fa-bars"></span><img class="logo" src="img/logo-small.png" style="margin: 1%;"></a>
+	</div>
+	<div class="container">
+ 		<div class="branding col-md-2 col-sm-12 hidden-xs text-center" style="padding: 0;">
+            <div class=" ">
+              <h1 style="margin: 0;"><a href="#"><img class="logo" src="img/logotipo.png" alt="Mindshare HR Logo" /></a></h1>
+            </div>
+        </div>
+		<nav class=" pull-right">
+			<ul>
+				<li><a href="#" class="active"><span class="fa fa-home"></span>Inicio</a></li>
+				<li><a href="#"> Nosotros</a></li>
+				<li class="submenu">
+					<a href="#"> Programas<span class="caret"></span></a>
+					<ul class="children child-1">
+						<li class="bot"><a href="#" >SubElemento #1 </a></li>
+						<li class="bot"><a href="#" >SubElemento #2 </a></li>
+						<li><a href="#" >SubElemento #3 </a></li>
+					</ul>
+				</li>
+				<li class="submenu">
+					<a href="#"> Sustentabilidad<span class="caret"></span></a>
+					<ul class="children child-2">
+						<li class="bot"><a href="#" >SubElemento #1 </a></li>
+						<li><a href="#">SubElemento #2 </a></li>
+					</ul>
+				</li>
+				<li><a href="#"> Contáctanos</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+	<script type="text/javascript">
+	$(document).ready(main);
+	var contador = 1;
+	function main () {
+		$('.menu_bar').click(function(){
+			if (contador == 1) {
+				$('nav').animate({
+					left: '0'
+				});
+				contador = 0;
+			} else {
+				contador = 1;
+				$('nav').animate({
+					left: '-100%'
+				});
+			}
+		});
+	 
+		// Mostramos y ocultamos submenus
+		$('.submenu').click(function(){
+			$(this).children('.children').slideToggle();
+		});
+	}
+	</script>
+
+	<div class="imagen">
+		<img src="img/slider-4.jpg" style=" height: 100vh; width: 100%;">
+	</div>
+	<div class="container">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<br>
+		<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<br>
+	</div>
+</body>
+</html>

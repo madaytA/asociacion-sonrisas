@@ -132,6 +132,7 @@ body a { text-decoration: none;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 4.5em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 5em;}
 }
+@media only screen and (max-width: 767px) {#section-1 {margin-top: -9px;} }
 @media only screen and (max-width: 768px) {
   /*.main-header .header-wrapper .main-menu li {padding: 0.75em 0.5em;}*/
   #section-1 {height: 27em;}

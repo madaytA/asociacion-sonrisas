@@ -3,7 +3,7 @@
 body h1, body h2, body h3, body h4, body h5, body h6, body ul, body li { margin: 0; padding: 0;}
 body, p {margin: 0;}
 body{font-family: 'PT Sans', sans-serif;}
-header{ text-align: center;
+header{
   -webkit-box-shadow: 0px 0px 5px 0px rgba(221,221,221,1);
   -moz-box-shadow: 0px 0px 5px 0px rgba(221,221,221,1);
   box-shadow: 0px 0px 5px 0px rgba(221,221,221,1);
@@ -245,7 +245,9 @@ color: #fff; height:auto;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 7em;}
   .note .info{padding: 30px 0px 10px 20px;}
 }
-@media (max-width:767px) {
+@media screen and (max-width:767px) {
+  header{box-shadow: none;}
+  #section-1 { margin-top: -9px;}
   .tab-content > .active{padding-top: 20px;}
   .note .info{padding: 50px 0px;}
   .note .imagen{padding: 50px 0 0;}

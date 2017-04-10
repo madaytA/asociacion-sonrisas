@@ -43,7 +43,7 @@ header.global nav ul {margin: 0;/*padding: 0 25px;*/ display: block; }
 }
 header.global nav ul li {display: inline-block; color: #dddddd; line-height: 44px; }
 @media screen and (max-width: 768px) {
-  header.global nav ul li {width: 100%; border-left: none; border-right: none;border-bottom: 1px dashed #505050; }
+  header.global nav ul li {width: 100%; border-left: none; border-right: none;border-bottom: 1px dashed #999; }
   header.global nav ul li:first-child {border-top: none; }
   header.global nav ul li:last-child {border-bottom: none; } 
 }
@@ -182,7 +182,9 @@ footer .contact .copyright{margin-top: 20px;}
 .footer-social-small {font-size: 0.6em; padding: 0px 10px;}
 .footer-social-overlap > a {font-size: 1.6em;}
 .footer-social-overlap > a:not(:first-child) {margin-left: 0.38em;}
-
+@media only screen and (max-width: 991px) {
+  footer .foot-2 {margin-bottom: 10px;}
+}
 @media only screen and (max-width: 768px) {
   .footer-list-header {font-size: 1.3em;}
   .footer-list-anchor {font-size: 1em;}
@@ -210,7 +212,7 @@ footer .contact .copyright{margin-top: 20px;}
   .footer-social-overlap > a:not(:first-child) {margin-left: 20px;}
 }
 
-.footer-2{background:rgb(11,22,60); padding: 10px 0; font-size: 13px;}
+.footer-2{background:rgb(25,35,70); padding: 10px 0; font-size: 13px;}
 .footer-2 span{color:rgb(212,42,94); }
 
 
