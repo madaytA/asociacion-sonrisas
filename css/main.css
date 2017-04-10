@@ -4,7 +4,7 @@
 body h1, body h2, body h3, body h4, body h5, body h6, body ul, body li { margin: 0; padding: 0;}
 body {margin: 0;}
 body{font-family: 'PT Sans', sans-serif;}
-header{text-align: center;position: absolute;z-index: 9999; width: 100%; background: #fff; }
+header{position: absolute;z-index: 9999; width: 100%; background: #fff; }
 
 
 body section {display: block;}
@@ -127,6 +127,9 @@ body a { text-decoration: none;}
   #section-1 .content-slider nav {bottom: 0;}
   #section-1 .content-slider nav .controls {width: 80%;}
 }*/
+@media only screen and (max-width: 991px) {
+  #section-1 {padding-top: 40px;}
+}
 @media only screen and (max-width: 860px) {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {font-size: 2em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 20em;}
@@ -138,6 +141,8 @@ body a { text-decoration: none;}
   #section-1 .content-slider nav .controls label {width: 19%; font-size: 0.8em;}
 }
 @media only screen and (max-width: 767px) {
+  #section-1{margin-top: -80px; padding-top: 0px;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper{padding-top: 17em;}
   .areas .icon { width:151px; height: 151px; margin: auto; }
   .areas .icon2 { width:150px; height: 150px; margin: auto; }
 }

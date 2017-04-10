@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/menu-vertical.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -20,68 +20,57 @@
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-<!-- ------------sliderr------------ -->
-
-<!-- <div class="container"> -->
-  <div class="wrap">
-    <header class="global">
-      <div class="date-search ">
+<header>
+  <div class="date-search hidden-xs">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12 text-left"><h5>Linea gratuita <span> 054-436555</span></h5></div>
             <div class="col-md-6 col-sm-6 hidden-xs text-right"></div>
           </div>
         </div>
-        <div class="box list-inline hidden-xs">
+        <div class="box list-inline hidden-xs text-center">
           <h5><a href="https://www.facebook.com/Asociaci%C3%B3n-Sonrisas-768335219878087/?fref=ts"><div class="icon"><i class="fa fa-facebook"></i></div></a>  <a class="email" href="mailto:someone@example.com?Subject=Hello%20again" target="_top">asociacionsonrisas@gmail.com</a> </h5>
         </div>
-      </div>
-      <div class="container content">
-        <div class="row">
-          <div class="branding col-md-2 col-sm-12">
-            <div class="">
-              <h1><a href="#"><img class="logo" src="img/logotipo.png" alt="Mindshare HR Logo" /></a></h1>
-            </div>
-          </div>
-          <nav class="col-md-10 col-sm-12">
-            <div class="menu-right">
-              <div id="hamburger"><i class="fa fa-bars"></i> Menu</div>
-              <ul class="sf-menu">
-                <li class="home">
-                    <a class="border-bott active" href="index.html" title="Home"><i class="fa fa-home"></i><span> Home</span> Inicio</a>
-                </li>
-                <li class="menu-list">
-                  <a href="#">Nosotros</a>
-                  <span class="sub-indicator"></span>
-                  <ul>
-                    <li><a href="#">Cultura Corporativa</a></li>
-                    <li><a href="#" style="text-align: left;">Responsabilidad Social</a></li>
-                  </ul>
-                </li>
-                <li class="submenu menu-list"><a href="#">Programas<span class="entypo-down-open"></span></a>
-                  <span class="sub-indicator"></span>
-                  <ul>
-                    <li><a href="#">Microcréditos Sonrisas</a></li>
-                    <li><a href="#">Constructora Sonrisas</a></li>
-                    <li><a href="#">Centro del Adulto Mayor</a></li>
-                  </ul>
-                </li>
-                <li class="submenu menu-list"><a href="#">Sustentabilidad <span class="entypo-down-open"></span></a>
-                  <span class="sub-indicator"></span>
-                  <ul>
-                    <li><a href="#">Sub Item 1</a></li>
-                    <li><a href="#">Sub Item 2</a></li>
-                  </ul>
-                </li>
-                <li><a class="border-bott" href="contacto.html">Contáctanos</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
   </div>
-<!-- </div> -->
+  <div class="menu_bar">
+    <a href="#" class="bt-menu"><span class="fa fa-bars"></span><img class="logo" src="img/logo-small.png" style="margin: 1%;"></a>
+  </div>
+  <div class="container">
+    <div class="branding col-md-2 col-sm-12 hidden-xs text-center" style="padding: 0;">
+            <div class=" ">
+              <h1 style="margin: 0;"><a href="#"><img class="logo" src="img/logotipo.png" alt="Mindshare HR Logo" /></a></h1>
+            </div>
+        </div>
+    <nav class=" pull-right">
+      <ul>
+        <li><a href="index.html"><span class="fa fa-home" style="font-size: 20px;"></span>Inicio</a></li>
+        <li class="submenu">
+          <a href="nosotros.html" class="active"> Nosotros<span class="caret"></span></a>
+          <ul class="children child-1">
+            <li class="bot"><a href="nosotros.html" >Cultura Corporativa </a></li>
+            <li><a href="responsabilidad-social.html" >Responsabilidad Social</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <a href="#""> Programas<span class="caret"></span></a>
+          <ul class="children child-1">
+            <li class="bot"><a href="microcreditos-sonrisas.html" >Microcréditos SONRISAS </a></li>
+            <li class="bot"><a href="constructora.html" >Constructora SONRISAS </a></li>
+            <li><a href="centro-del-adulto-mayor.html" >Centro del Adulto Mayor </a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <a href="#"> Sustentabilidad<span class="caret"></span></a>
+          <ul class="children child-2">
+            <li class="bot"><a href="#" >SubElemento #1 </a></li>
+            <li><a href="#">SubElemento #2 </a></li>
+          </ul>
+        </li>
+        <li><a href="contacto.html"> Contáctanos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 <!-- -------------slider-------- -->
 <section id="section-1">
     <div class="content-slider">
