@@ -217,24 +217,22 @@ background-position: right; padding: 70px 0; background-position-y: -40%;}
 .note .info li {line-height: 22px; color: #666;}
 
 /*-------------clientes-------------*/
-.section-aliados { background:#f9f9f9; }
-/*.section-aliados h4 { padding-bottom: 40px; text-transform: uppercase; color: rgba(11,22,60,.8);}*/
-.section-aliados ._fondo {padding: 70px 0;}
-/*.section-aliados .email {background: #e9e9ea;}*/
-.section-aliados .adress {background: #e9e9ea;}
-.section-aliados ._fondo i{font-size: 45px; padding-bottom: 20px; color: rgba(11,22,60,.8);}
-.section-aliados ._fondo h5{ color: rgba(11,22,60,.8); font-size: 16px;}
-/*.section-aliados ._fondo img{ filter: grayscale(98%); transition: grayscale 0.5s; width: 90%; margin: auto;}
-.section-aliados ._fondo img:hover { filter: grayscale(0);}*/
+.section-aliados { padding: 70px 0; background: #f9f9f9;}
+.section-aliados ._fondo {padding: 40px 0; border: 1px solid rgba(11,22,60,.1); background: #fff;}
+.section-aliados ._fondo:hover h5, .section-aliados ._fondo:hover a{color:rgba(11,22,60,.8);}
+.section-aliados ._fondo i{font-size: 50px; padding: 20px 0; color: rgba(11,22,60,.8);}
+.section-aliados ._fondo:hover i{color: rgb(41,47,62);}
+.section-aliados ._fondo h4{ color: rgba(11,22,60,.8); font-family:'Oswald', sans-serif;}
+.section-aliados ._fondo h5{ color: #818080; font-size: 16px;}
+.section-aliados ._fondo h5 a {color: #818080; position: relative; z-index: 9999;}
+.section-aliados ._fondo h5 a:hover, .section-aliados ._fondo h5 a:focus {border-bottom: 0px; text-decoration: none;}
+
 /*-------------contact-------*/
 .contacto{background-image: url('../img/construccion/fondo-contact.jpg'); position: relative; background-position: center;
 color: #fff; height:auto;}
 .contacto .opacity{padding: 50px 0 60px 0; background: rgba(42,50,63,.3); width: 100%;}
 .contacto .opacity h2{font-weight: bold;}
 .contacto .opacity h4{padding: 20px 0; font-style: italic;}
-.contacto .opacity h3{font-weight: bold; display: inline-block;}
-.contacto .opacity h3 span{font-weight: normal; display: inline-block; margin-left: 15px;}
-.contacto .opacity .boton { margin-left: 4%;}
 .contacto .opacity .boton a{ color: #fff; border:1px solid #eee; padding: 7px 20px; text-decoration: none; font-size: 16px;}
 .contacto .opacity .boton a:hover { background: #eee; border:1px solid #eee; text-orientation: none; color: rgb(11,22,60);}
 
@@ -254,6 +252,7 @@ color: #fff; height:auto;}
   .tab-content > .active{padding-top: 20px;}
   .note .info{padding: 50px 0px;}
   .note .imagen{padding: 50px 0 0;}
+  .section-aliados .fondo1{margin-bottom: 40px;}
 }
 @media (max-width:660px) {
   .section-aliados .col-md-2 {width: 33.3%;}
