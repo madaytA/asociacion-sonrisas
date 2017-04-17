@@ -217,12 +217,15 @@ background-position: right; padding: 70px 0; background-position-y: -40%;}
 .note .info li {line-height: 22px; color: #666;}
 
 /*-------------clientes-------------*/
-.section-aliados { padding: 70px 0;}
-.section-aliados h4 { padding-bottom: 40px; text-transform: uppercase; color: rgba(11,22,60,.8);}
-.section-aliados ._fondo img{ filter: grayscale(98%); transition: grayscale 0.5s; width: 90%; margin: auto;}
-.section-aliados ._fondo img:hover { filter: grayscale(0);}
-.section-aliados .col-md-2 { width: 20%;}
-.section-aliados .border { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.section-aliados { background:#f9f9f9; }
+/*.section-aliados h4 { padding-bottom: 40px; text-transform: uppercase; color: rgba(11,22,60,.8);}*/
+.section-aliados ._fondo {padding: 70px 0;}
+/*.section-aliados .email {background: #e9e9ea;}*/
+.section-aliados .adress {background: #e9e9ea;}
+.section-aliados ._fondo i{font-size: 45px; padding-bottom: 20px; color: rgba(11,22,60,.8);}
+.section-aliados ._fondo h5{ color: rgba(11,22,60,.8); font-size: 16px;}
+/*.section-aliados ._fondo img{ filter: grayscale(98%); transition: grayscale 0.5s; width: 90%; margin: auto;}
+.section-aliados ._fondo img:hover { filter: grayscale(0);}*/
 /*-------------contact-------*/
 .contacto{background-image: url('../img/construccion/fondo-contact.jpg'); position: relative; background-position: center;
 color: #fff; height:auto;}
