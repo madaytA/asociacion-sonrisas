@@ -13,6 +13,7 @@ header{
 .control hr{color: #ccc; margin: 0px;}
 .control .box-links p{color: #ccc; padding: 7px 20px;}
 .control .box-links a{color: #000; font-size: 12px;}
+.control .box-links a:hover, .control .box-links a:focus{border-bottom: 0px;}
 .title-page h2{font-weight: bold; color: rgb(212,42,94); padding: 40px 0 20px; font-family:'Oswald', sans-serif; }
 .title-page hr{ margin: 0px; width: 10%; border-top: 3px solid rgb(212,42,94); }
 .content-info {padding: 40px 0; }
