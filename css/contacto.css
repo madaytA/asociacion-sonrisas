@@ -13,6 +13,7 @@ header{
 .control hr{color: #ccc; margin: 0px;}
 .control .box-links p{color: #ccc; padding: 7px 20px;}
 .control .box-links a{color: #000; font-size: 12px;}
+.control .box-links a:hover, .control .box-links a:focus{border-bottom: 0px;}
 .title-page h2{font-weight: bold; color: rgb(212,42,94); padding: 40px 0 20px; font-family:'Oswald', sans-serif; }
 .title-page hr{ margin: 0px; width: 10%; border-top: 3px solid rgb(212,42,94); } 
 
@@ -20,8 +21,8 @@ header{
 .formulario{padding: 50px 0; }
 .formulario .mapa iframe {width: 100%; }
 .formulario #contact-area input, textarea {width: 100%; padding: 5px 10px; margin-bottom: 10px; }
-.formulario #contact-area .submit-button {width:40%; background: rgb(212,42,94); border:none; color: #fff; text-transform: uppercase;}
-.formulario #contact-area .submit-button:hover { background: rgba(11,22,60,.8); color: #fff; border:none; }
+.formulario #contact-area .submit-button {width:30%; background:transparent; border:1px solid rgb(212,42,94); color:rgb(212,42,94); text-transform: uppercase;}
+.formulario #contact-area .submit-button:hover { background: rgba(11,22,60,.8); color: #fff; border:none; border: 1px solid; }
 
 @media screen and (max-width: 767px) {
 	header{box-shadow: none;}

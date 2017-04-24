@@ -23,6 +23,7 @@ header nav ul li a:hover, a:focus{color: rgb(212,42,94); text-decoration: none; 
 header nav ul li a {color:rgb(11,22,60); display:block; text-decoration:none; padding: 30px 15px 7px; text-transform: uppercase; border-bottom: 4px solid #fff;}
 header nav ul li a span {margin-right:10px;}
 header nav ul li:hover .children {display:block;}
+header .branding h1 a:hover, header .branding h1 a:focus{border-bottom: 0px;}
 header .branding .logo {margin:10px 0 10px 0px; }
 header nav ul li .children {display: none; background:rgba(11,22,60,.8);position: absolute; width: 147%; z-index:1000; border-top:4px solid rgb(212,42,94); top: 4.1em;}
 header nav ul li .child-2 {display: none; background:rgba(11,22,60,.8);position: absolute; width: 115%;}

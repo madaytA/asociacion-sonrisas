@@ -49,3 +49,8 @@ header{
 .text-information .content-info li{color:#666;}
 .text-information .content-info .banner img{width: 100%; height: 180px;}
 .text-information .nano-content .fa-circle{font-size: 5px; }
+
+
+@media screen and (max-width: 767px) {
+  header{box-shadow: none;}
+}
