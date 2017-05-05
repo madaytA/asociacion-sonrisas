@@ -209,7 +209,7 @@ body a { text-decoration: none;}
 /*--------------file-services-----------*/
 .file-services{background-image: url('../img/fondo-testimonio.jpg'); background-size: 100px;}
 .file-services .bg-transparent{background: rgba(225,225,225,.8); padding: 70px 0;}
-.file-services .title {text-align:-webkit-auto; padding: 20px 0;}
+.file-services .title {text-align:-webkit-auto; padding: 18px 0;}
 .file-services .title h1{font-weight: bold; color:rgba(11,22,60,.8); padding: 20px 0;font-family:'Oswald', arial serif;  }
 .file-services .title p{font-weight: bold; color:rgb(212,42,94);margin-bottom: 0px; text-transform: uppercase; }
 .file-services .title h5{color: #666; font-size: 15px; }

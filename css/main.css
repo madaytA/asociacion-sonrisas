@@ -41,6 +41,7 @@ body a { text-decoration: none;}
   padding: 0.5em 2em; text-align: center; font-size: 0.875em; color: #fff; text-transform: uppercase; border: 0.1875em solid #fff;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
   color: rgba(11,22,60,.7); border-color: rgba(11,22,60,.7); transition: .3s;}
+#section-1 .content-slider .slider #top-banner-0 {background: url('../img/slider-7.jpg') no-repeat center center;background-size: cover;}
 #section-1 .content-slider .slider #top-banner-1 {background: url('../img/slider-6.jpg') no-repeat center center;background-size: cover;}
 #section-1 .content-slider .slider #top-banner-2 {background: url('../img/slider-2.jpg') no-repeat center center;background-size: cover;}
 #section-1 .content-slider .slider #top-banner-3 {background: url('../img/slider-4.jpg') no-repeat center center; background-size: cover;}
@@ -59,27 +60,31 @@ body a { text-decoration: none;}
 }
 #section-1 .content-slider nav .controls label span {font-size: 1.4em; font-weight: 700;}
 #section-1 .content-slider nav .controls label:hover {color: rgba(11,22,60,.7);}
+#section-1 .content-slider #banner0:checked ~ .slider #top-banner-0,
 #section-1 .content-slider #banner1:checked ~ .slider #top-banner-1,
 #section-1 .content-slider #banner2:checked ~ .slider #top-banner-2,
 #section-1 .content-slider #banner3:checked ~ .slider #top-banner-3{
   opacity: 1;
   z-index: 1;
 }
-#section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1),
-#section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2),
-#section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) {
+#section-1 .content-slider #banner0:checked ~ nav label:nth-of-type(1),
+#section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(2),
+#section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(3),
+#section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(4) {
   cursor: default;
   color: #fff;
   transition: all 5s;
 }
-#section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar,
-#section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar,
-#section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar {
+#section-1 .content-slider #banner0:checked ~ nav label:nth-of-type(1) .progressbar,
+#section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(2) .progressbar,
+#section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(3) .progressbar,
+#section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(4) .progressbar {
   background: #fff;
 }
-#section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar-fill,
-#section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar-fill,
-#section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar-fill {
+#section-1 .content-slider #banner0:checked ~ nav label:nth-of-type(1) .progressbar-fill,
+#section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(2) .progressbar-fill,
+#section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(3) .progressbar-fill,
+#section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(4) .progressbar-fill {
   animation: progressBarFill 5s linear;
 }
 
@@ -147,7 +152,6 @@ body a { text-decoration: none;}
   .areas .icon2 { width:150px; height: 150px; margin: auto; }
 }
 @media only screen and (max-width: 480px) {
-  #section-1 .content-slider nav {bottom: -0.5em; }
   #section-1 .content-slider nav .controls label {width: 40%; font-size: 0.7em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {font-size: 1.5em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 { font-size: 3em;}
