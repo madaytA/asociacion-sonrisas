@@ -41,7 +41,7 @@ body a { text-decoration: none;}
   padding: 0.5em 2em; text-align: center; font-size: 0.875em; color: #fff; text-transform: uppercase; border: 0.1875em solid #fff;}
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
   color: rgba(11,22,60,.7); border-color: rgba(11,22,60,.7); transition: .3s;}
-#section-1 .content-slider .slider #top-banner-0 {background: url('../img/slider-7.jpg') no-repeat center center;background-size: cover;}
+#section-1 .content-slider .slider #top-banner-0 {background: url('../img/slider-8.jpg') no-repeat center center;background-size: cover;}
 #section-1 .content-slider .slider #top-banner-1 {background: url('../img/slider-6.jpg') no-repeat center center;background-size: cover;}
 #section-1 .content-slider .slider #top-banner-2 {background: url('../img/slider-2.jpg') no-repeat center center;background-size: cover;}
 #section-1 .content-slider .slider #top-banner-3 {background: url('../img/slider-4.jpg') no-repeat center center; background-size: cover;}
@@ -92,52 +92,39 @@ body a { text-decoration: none;}
   from {margin-left: -100%;}
   to {margin-left: 0;}
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 1920px) {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 26em;}
-  #section-1 .content-slider .slider .banner .wraper-1 { padding-top: 28.5em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 5em; line-height: 95%;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {font-size: 3em; }
 }
-@media only screen and (max-width: 1120px) {
+@media only screen and (max-width: 1919px) {
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 24em;}
+}
+@media only screen and (max-width: 1680px) { 
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 21.5em;}
+}
+@media only screen and (max-width: 1440px) { 
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 18em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 4em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {font-size: 2.5em; }
+}
+@media only screen and (max-width: 1366px) {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 19em;}
 }
-
-/*@media only screen and (min-width: 1920px) {
-  body { font-size: 22px;}
-  #section-1 {height: 46em;}
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 12em;}
-}
-/*@media only screen and (max-width: 1919px) {
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 21em;}
-  #section-1 .content-slider .slider .banner .wraper-1 { padding-top: 27.5em;}
-}*/
-
-
-/*@media only screen and (max-width: 1680px) { 
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 5em;}
-  #section-1 .content-slider .slider .banner .wraper-1 { padding-top: 10.7em;}
-}*/
-
-
-/*@media only screen and (max-width: 1366px) {
-  body { font-size: 14px;}
-}*/
-/*@media only screen and (max-width: 1120px) {
-  #section-1 { height: 35em;}
-  #section-1 .content-slider nav { bottom: -0.2em;}
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 7em;}
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {margin: 2em auto;}
+@media only screen and (max-width: 1120px) {
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper { padding-top: 17em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {font-size: 3.5em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {font-size: 2.1em; }
 }
 @media only screen and (max-width: 1024px) {
-  body {font-size: 14px;}
-  #section-1 .content-slider nav {bottom: 0;}
-  #section-1 .content-slider nav .controls {width: 80%;}
-}*/
+  #section-1 .content-slider nav .controls {width: 90%;}
+}
 @media only screen and (max-width: 991px) {
   #section-1 {padding-top: 40px;}
 }
 @media only screen and (max-width: 860px) {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {font-size: 2em;}
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 20em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 17em;}
 }
 @media only screen and (min-width: 767px ) and (max-width: 768px){
   .wrap .global .content{width: 100%;}
@@ -147,7 +134,7 @@ body a { text-decoration: none;}
 }
 @media only screen and (max-width: 767px) {
   #section-1{margin-top: -80px; padding-top: 0px;}
-  #section-1 .content-slider .slider .banner .banner-inner-wrapper{padding-top: 17em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper{padding-top: 16em;}
   .areas .icon { width:151px; height: 151px; margin: auto; }
   .areas .icon2 { width:150px; height: 150px; margin: auto; }
 }
@@ -157,7 +144,11 @@ body a { text-decoration: none;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 { font-size: 3em;}
   #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {margin: 1.7em auto;}
 }
-
+@media only screen and (max-width: 375px) {
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {font-size: 1.3em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 { font-size: 2.6em;}
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper{padding-top: 15em;}
+}
 /*-------------fin slider------------*/
 
 
@@ -248,17 +239,6 @@ body a { text-decoration: none;}
 .content-item:hover .overlay-content a{background: rgba(11,22,60,.7); color: #fff; border:none; padding: 5px 15px; 
   border:1px solid rgba(11,22,60,.1); text-decoration: none; }
 .content-item:hover .overlay-content a:hover{ border:1px solid #fff; text-orientation: none;}
-
-/*---------paralax contacto----------*/
-/*.parallax {height: 100%; background-image: url('../img/fondo-footer.jpg'); background-position: center;background-size: cover;}
-.parallax .opacity {height: 100%; background-color:rgba(11,22,60,.8); width: 100%; padding: 30px 0;}
-.parallax .image h2, p, h4, h3 {color: #fff;}
-.parallax .image h2{text-transform: uppercase; text-shadow: 0px 1px 1px #444; margin-bottom: 10px; font-size: 24px;}
-.parallax .image .contenido .icon-tel i {font-size: 40px; color: #fff; text-shadow:0 1px 1px #000; }
-.parallax .image h3{ font-weight: bold; text-shadow: 0 1px 1px #000; font-size: 22px; }
-.parallax .image p{ font-size: 14px; }
-*/
-
 
 
 @media only screen and (max-width: 767px) {

@@ -45,7 +45,7 @@ body a { text-decoration: none;}
 #section-1 .content-slider .slider #top-banner-4 .img-2{display: none;}
 /*#section-1 .content-slider .slider #top-banner-4 .text{width: 49%; position: absolute; left:50%; bottom: 18%;}*/
 
-#section-1 .content-slider .slider .banner .slid-1{float: right; text-align: right;}
+#section-1 .content-slider .slider .banner .slid-1{float: right; /*text-align: right;*/}
 #section-1 .content-slider .slider .banner .slid-2{float: left; }
 #section-1 .content-slider .slider .banner .slid-3{float: left; }
 
@@ -64,8 +64,8 @@ body a { text-decoration: none;}
 @media only screen and (min-width: 1920px) {
   #section-1 {height: 26.5em; max-height: 26.5em;}   /*42em*/
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {padding-top: 6.5em;}
-  #section-1 .content-slider .slider #top-banner-1 img{width: 29%; left: 20%;}
-  #section-1 .content-slider .slider #top-banner-2 img{width: 29%; }
+  #section-1 .content-slider .slider #top-banner-1 img{width: 29%; left: 21%;}
+  #section-1 .content-slider .slider #top-banner-2 img{width: 29%; right: 20%;}
   #section-1 .content-slider .slider #top-banner-4 .img-1{width: 37%;}
 }
 @media only screen and (max-width: 1919px) {
@@ -86,8 +86,8 @@ body a { text-decoration: none;}
   #section-1 .content-slider .slider #top-banner-4 .img-1{width: 43%;}
 }
 @media only screen and (max-width: 1440px) {
-  #section-1 .content-slider .slider #top-banner-1 img{width: 39%; left: 15%;}
-  #section-1 .content-slider .slider #top-banner-2 img{width: 39%;}
+  #section-1 .content-slider .slider #top-banner-1 img{width: 39%; left: 12%;}
+  #section-1 .content-slider .slider #top-banner-2 img{width: 39%; right: 8%;}
   #section-1 .content-slider .slider #top-banner-4 .img-1{width: 47%;}
 }
 @media only screen and (max-width: 1366px) {
@@ -185,7 +185,7 @@ body a { text-decoration: none;}
 }
 
 /*--------link-icon---------*/
-.link-icon {padding: 70px 0;}
+.link-icon {padding: 70px 0; background: url('../img/creditos/bg-oblicuo.png');}
 /*.link-icon .col-md-2 {width: 20%;}
 .link-icon .cuadro{padding: 20px 0;border: 1px solid #ccc; height: 86px;}
 .link-icon .cuadro:hover{background: rgba(11,22,60,.8); border: 1px solid #eee;}
@@ -196,15 +196,25 @@ body a { text-decoration: none;}
 .link-icon .cuadro h5{display: inline-block; margin-top: 11%; color: #110056; }
 .link-icon .cuadro .col-md-8{padding-left: 0px;text-align: left; }
 */
-.link-icon .icons{height: 87px; width: 87px; border-radius: 50%; border: 1px solid #ddd; margin: 0 auto 20px;}
-.link-icon i{font-size:40px; color: rgb(212,74,126); padding: 25%;}
-.link-icon h5{font-size:23px; font-weight: 100; color:rgb(212,74,126);}
+.link-icon i{font-size:50px; color: rgb(212,74,126); padding: 7%;}
+.link-icon h5{font-size:17px; font-weight: 400; color:rgba(11,22,60,.8); text-transform: uppercase; font-family:'Oswald', arial serif;}
+.link-icon hr{border-top: 2px solid rgba(11,22,60,.7); width: 20%; margin: 3% auto 5%;}
 .link-icon p{margin-bottom: 0px; color: #666; font-size: 15px;}
-.link-icon a{color:rgb(212,74,126); font-size: 16px; font-weight: 600;}
-.link-icon a input{padding: 8px 30px; border: 1px solid rgb(212,74,126); background: transparent;}
+/*.link-icon a{color:rgb(212,74,126); font-size: 16px; font-weight: 600;}
+.link-icon a input{padding: 8px 30px; border: 1px solid rgb(212,74,126); background: transparent;}*/
 .link-icon a:hover, .link-icon a:focus{border-bottom: 0px;}
-.link-icon a:hover{color: #fff; font-weight: 100;}
-.link-icon a:hover input{background: rgba(11,22,60,.8); border: 1px solid rgba(11,22,60,.1);}
+/*.link-icon a:hover{color: #fff; font-weight: 100;}
+.link-icon a:hover input{background: rgba(11,22,60,.8); border: 1px solid rgba(11,22,60,.1);}*/
+
+.bie-slide2 { position:relative; display:inline-block; height:50px; width:180px; line-height:47px; padding:0; border-radius:50px; background:#fdfdfd; transition:.5s; border:1px solid rgb(212,74,126);}
+.bie-slide2:hover { background-color:rgba(11,22,60,.8); border:2px solid rgba(11,22,60,.2); font-weight: 100;}
+.bie-slide2:hover span.circle2 { left:100%; margin-left:-45px; background-color:#fdfdfd; color:#F9690E; }
+.bie-slide2:hover span.title2 { left:40px; opacity:0; }
+.bie-slide2:hover span.title-hover2 { opacity:1; left:40px; }
+.bie-slide2 span.circle2 { display:block; background-color:rgb(212,74,126); color:#fff; position:absolute; float:left; margin:3px 5px; 
+  line-height:42px; height:40px; width:40px; top:0; left:0; transition:.5s; border-radius:50%; }
+.bie-slide2 span.title2,.bie-slide2 span.title-hover2 { position:absolute; left:72px; text-align:center; margin:0 auto; font-size:16px; font-weight:bold; color:rgb(212,74,126); transition:.5s; }
+.bie-slide2 span.title-hover2 { left:80px; opacity:0; color:#fff;}
 
 /*--------------file-services-----------*/
 .file-services{background-image: url('../img/fondo-testimonio.jpg'); background-size: 100px;}
